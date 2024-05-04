@@ -107,3 +107,27 @@ a:hover {
     height: 150px;
     object-fit: cover;
 }
+
+.End_Part {
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-inline: 200px;
+    padding-block: 50px;
+    
+}
+
+.End_Part h3 {
+    display: flex;
+    align-self: flex-end;
+}
+
+p {
+    max-width: 600px;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+
+}
