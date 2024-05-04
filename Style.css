@@ -52,12 +52,14 @@ a:hover {
     color: aliceblue;
     padding-inline: 80px;
     flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
-.Description Text {
+.Text {
     display: flex;
     flex-flow: column;
-
+    align-items: center;
 }
 
 .Description p {
@@ -71,7 +73,7 @@ a:hover {
 }
 
 .Description img {
-    margin: 40px;
+    margin-left: 40px;
     max-height: 400px;
     max-width: 600px;
 }
@@ -115,7 +117,6 @@ a:hover {
     align-items: center;
     padding-inline: 200px;
     padding-block: 50px;
-    
 }
 
 .End_Part h3 {
@@ -129,5 +130,42 @@ p {
     text-align: center;
     font-size: large;
     font-style: italic;
+}
 
+.Banner_Box {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    margin-inline: 200px;
+    margin-top: 60px;
+    color: antiquewhite;
+    background-color: #3882f6;
+    border-radius: 15px;
+    height: 100px;
+}
+
+.Banner_Box button {
+    max-width: 100px;
+    max-height: 50px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: aliceblue;
+    border-width: 5px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.Banner_Textbox  {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+.Banner_Textbox p {
+    margin: 0;
 }
