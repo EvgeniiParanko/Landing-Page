@@ -139,6 +139,7 @@ p {
     align-items: center;
     margin-inline: 200px;
     margin-top: 60px;
+    margin-bottom: 60px;
     color: antiquewhite;
     background-color: #3882f6;
     border-radius: 15px;
@@ -168,4 +169,17 @@ h4 {
 
 .Banner_Textbox p {
     margin: 0;
+}
+
+.Footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height:50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #1f2937;
+    color: aliceblue; 
+    margin-bottom: auto;
 }
