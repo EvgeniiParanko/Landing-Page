@@ -11,10 +11,9 @@ body {
     height:50px;
     font-size: 16px;
     font-weight: bold;
-    Padding: 10px;
+    padding: 10px;
     background-color: #1f2937;
-    color: aliceblue;
-    
+    color: aliceblue; 
 }
 
 img {
@@ -52,6 +51,7 @@ a:hover {
     background-color: #1f2937;
     color: aliceblue;
     padding-inline: 80px;
+    flex-wrap: wrap;
 }
 
 .Description Text {
@@ -83,4 +83,27 @@ a:hover {
     border-radius: 20px;
     width: 150px;
     height: 50px;
+}
+
+.Central_Part {
+    display: flex;
+    flex-flow: column;
+    padding-inline: 100px;
+    align-items: center;
+}
+
+.Boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Box {
+    max-width: 150px;
+    padding: 9px;
+}
+
+.Boxes img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
